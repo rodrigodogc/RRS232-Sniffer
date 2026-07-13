@@ -1,0 +1,25 @@
+# Ambiente Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Dados de execução: sessões capturadas, logs e exportações são estado local,
+# não código-fonte — não devem entrar no controle de versão
+data/
+
+# Testes e ferramentas
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editores/IDE
+.vscode/
+.idea/
+*.swp
+
+# SO
+Thumbs.db
+.DS_Store
